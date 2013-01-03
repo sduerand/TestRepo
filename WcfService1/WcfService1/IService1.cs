@@ -27,8 +27,8 @@ namespace WcfService1
     [DataContract]
     public class CompositeType
     {
-        bool boolValue = true;
-        string stringValue = "Hello ";
+        bool boolValue = false;
+        string stringValue = "Helloo ";
 
         [DataMember]
         public bool BoolValue
